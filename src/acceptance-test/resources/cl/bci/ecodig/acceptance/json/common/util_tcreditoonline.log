@@ -1,0 +1,12 @@
+1026.173106.784 DEBUG<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[123123][tieneTDC] TDCNX_TARJETA ..:[null]
+1026.173106.784 INFO<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[tieneTDC][BCI_FINOK]
+1026.173106.784 DEBUG<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[getTarjetas] registrando CTANX
+1026.173106.784 DEBUG<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[getTarjetas] rut..:[123123-4]
+1026.173106.784 DEBUG<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[123123][getTarjetas] rutEmpresa...: [123123123-4]
+1026.173106.784 DEBUG<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[123][getTarjetas] rutUsuario...: [123123123-7]
+1026.173106.784 DEBUG<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[213123][getTarjetas] tipoUsuario..: [Apoderado]
+1026.173106.784 DEBUG<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[123123][getTarjetas] perfil.......: [Autorizado]
+1026.173106.784 DEBUG<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[123123][getTarjetas] llamando a getCuentasPorRut (Nexus): [1231231-4] Otro Tipo de Usuario..
+1026.173107.080 WARN<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[123123][getTarjetas] Error de timeout o usuario no existe en nexus.
+1026.173107.080 DEBUG<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[12323][getTarjetas] Error en nexus: wcorp.bprocess.tcreditoonline.TCreditoException: CLIENTE NO EXISTE             
+1026.173107.080 INFO<[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'>TCreditoOnlineSessionCache:[reemplazaTDC] [123123] [BCI_FINOK][operaciones: 1]

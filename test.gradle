@@ -1,0 +1,17 @@
+sourceSets {
+    acceptanceTest {
+        java {
+            compileClasspath += main.output + test.output
+            runtimeClasspath += main.output + test.output
+            srcDir file('src/acceptance-test/java')
+        }
+        resources.srcDir file('src/acceptance-test/resources')
+    }
+}
+
+test {
+    useJUnitPlatform()
+    systemProperty "spock.configuration", "src/test/resources/SpockConfig.groovy"
+    systemProperty "file.encoding", "UTF-8"
+}
+

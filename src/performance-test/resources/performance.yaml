@@ -1,0 +1,58 @@
+loadType: sequence
+features:
+  - name: create-case
+    feature: classpath:cl/bci/ecodig/acceptance/ms-customers-support-cases-creation.feature@name=create-case
+    performance: true
+    reason: "enpoint que crea casos para plataforma unica"
+    reason_detail: ""
+    concurrency: very_low
+    iterations: low
+    response_time: medium
+  - name: update-case-ok
+    feature: classpath:cl/bci/ecodig/acceptance/ms-customers-support-cases-update.feature@name=update-case-ok
+    performance: true
+    reason: "enpoint que actualiza un caso creado en plataforma unica"
+    reason_detail: ""
+    concurrency: very_low
+    iterations: low
+    response_time: medium
+  - name: get-case-by-id-ok
+    feature: classpath:cl/bci/ecodig/acceptance/ms-customers-support-cases-search.feature@name=get-case-by-id-ok
+    performance: true
+    reason: "busca un caso por id en plataforma unica"
+    reason_detail: ""
+    concurrency: low
+    iterations: low
+    response_time: medium
+  - name: get-historical-case-ok
+    feature: classpath:cl/bci/ecodig/acceptance/ms-customers-support-cases-search.feature@name=get-historical-case-ok
+    performance: true
+    reason: "busca casos por rut en plataforma unica"
+    reason_detail: ""
+    concurrency: low
+    iterations: medium
+    response_time: very_high
+  - name: get-parameters-list
+    feature: classpath:cl/bci/ecodig/acceptance/ms-customers-support-cases-parameters.feature@name=get-parameters-list
+    performance: true
+    reason: "consulta parametria de codigos para plataforma unica"
+    reason_detail: ""
+    concurrency: high
+    iterations: medium
+    response_time: low
+  - name: attach-file-to-case-notFound
+    feature: classpath:cl/bci/ecodig/acceptance/ms-customers-support-attached-files.feature@name=attach-file-to-case-notFound
+    performance: false
+    reason: "Transaccional"
+    reason_detail: "Adjunta archivos a un storage account para analisis antimalware"
+    concurrency: medium
+    iterations: low
+    response_time: medium
+  - name: delete-attached-file-failed
+    feature: classpath:cl/bci/ecodig/acceptance/ms-customers-support-attached-files.feature@name=delete-attached-file-failed
+    performance: false
+    reason: "Transaccional"
+    reason_detail: "Elimina archivos que deben ser previamente analizados por antimalware"
+    concurrency: medium
+    iterations: low
+    response_time: medium

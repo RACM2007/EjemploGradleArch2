@@ -1,0 +1,36 @@
+{
+  "customerData": {
+    "documentNumber": "1-9",
+    "email": "llopez@bci.cl",
+    "phone": "6006009000",
+    "name": "Luis",
+    "lastName": "Lopez"
+  },
+  "caseClasification": {
+    "communicationChannel": 5,
+    "communicationChannelOther": "",
+    "type": 3,
+    "idProduct": 2,
+    "reason": 9,
+    "other": "string"
+  },
+  "businessExecutive": {
+    "name": "Paola Gonzalez",
+    "email": "paola.ojeda@bci.cl",
+    "documentNumber": "1-9"
+  },
+  "branchOffice": {
+    "name": "Bci Huerfanos",
+    "code": "090"
+  },
+  "caseData": {
+    "idOriginalTicket": "456",
+    "description": "1er Caso",
+    "status": 1,
+    "creationDate": "2023-09-10",
+    "partnerTarget": 1,
+    "sla": "texto"
+  },
+  "attachments": false
+
+}

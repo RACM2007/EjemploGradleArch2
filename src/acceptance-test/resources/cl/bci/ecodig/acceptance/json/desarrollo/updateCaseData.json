@@ -1,0 +1,8 @@
+{
+  "partner": 2,
+  "status": 1,
+  "comments" : "cambio de estado nuevo",
+  "businessExecutive" : "pepito",
+  "messageToCustomer": "revisanding",
+  "messageFromCustomer": "no tengo cashback"
+}

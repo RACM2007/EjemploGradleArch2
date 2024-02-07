@@ -1,0 +1,27 @@
+{
+  "caseClasification": {
+    "communicationChannel": 5,
+    "communicationChannelOther": "",
+    "type": 4,
+    "idProduct": 2,
+    "reason": 2,
+    "other": "string"
+  },
+  "businessExecutive": {
+    "name": "Paola Gonzalez",
+    "email": "paola.ojeda@bci.cl",
+    "documentNumber": "1-9"
+  },
+  "branchOffice": {
+    "name": "Bci Huerfanos",
+    "code": "090"
+  },
+  "caseData": {
+    "idOriginalTicket": "456",
+    "description": "1er Caso",
+    "creationDate": "2023-08-08",
+    "partnerTarget": 2
+  },
+  "attachments": false
+
+}
