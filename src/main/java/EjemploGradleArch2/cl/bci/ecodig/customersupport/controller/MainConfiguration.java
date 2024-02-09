@@ -1,4 +1,4 @@
-package EjemploGradleArch2.cl.bci.ecodig.customersupport.Controller;
+package EjemploGradleArch2.cl.bci.ecodig.customersupport.controller;
 
 
 public class MainConfiguration {
