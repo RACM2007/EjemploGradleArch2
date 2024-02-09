@@ -1,4 +1,4 @@
-package EjemploGradleArch.cl.bci.ecodig.customersupport;
+package EjemploGradleArch2.cl.bci.ecodig.customersupport;
 
 
 public class CustomersSupportApplication {
